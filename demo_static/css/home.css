@@ -1,0 +1,36 @@
+body {
+    background-color:none;
+    background-image: url('../img/wp1.jpg');
+    font-family: cursive;
+    
+}
+.jumbotron {
+    background-color: rgba(221, 160, 221, 0.795);
+}
+.btn {
+    background-color:rgb(255, 215, 221);
+    color: mediumslateblue;
+    border-color: plum;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 15px; 
+}
+.btn:hover{
+    background-color: rgb(178, 196, 252);
+    color: black;
+    border-color: white;
+
+}
+footer{
+    margin-top: 13.1%;
+}
+
+.footer-link {
+    text-decoration: none;
+    color:rebeccapurple; 
+}
+
+.footer-link:hover {
+    color: purple; 
+    box-shadow: silver;
+}

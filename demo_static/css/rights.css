@@ -1,0 +1,51 @@
+/* rights.css */
+
+body {
+    background-color: rgb(255, 215, 221);
+    background-image: url('../img/wp9.webp');
+    font-family: cursive;
+}
+
+.rights-content {
+    background-color: rgba(221, 160, 221, 0.795);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rights-content h1 {
+    color: black
+}
+
+.rights-content h2 {
+    color: black;
+    margin-top: 1.5rem;
+}
+
+.rights-content p {
+    color: black;
+    margin-bottom: 1rem;
+}
+a {
+    text-decoration: none;
+    color:rebeccapurple; 
+
+}
+
+a:hover {
+
+    color: purple; 
+    box-shadow: silver;
+}
+footer{
+    margin-top: 11.74%;
+}
+.footer-link {
+    text-decoration: none;
+    color:rebeccapurple; 
+}
+
+.footer-link:hover {
+    color: purple; 
+    box-shadow: silver;
+}

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/rights.css' %}">
+{% endblock %}
+
+{% block body %}
+<header>
+    <h1>About Our To-Do App</h1>
+</header>
+
+<section>
+    <h2>Introduction</h2>
+    <p>Welcome to our To-Do App! This application helps you manage your tasks efficiently and stay organized. Whether you're planning your day or keeping track of long-term projects, our app is here to assist you.</p>
+</section>
+
+<section>
+    <h2>Features</h2>
+    <ul>
+        <li>Easy task creation and management</li>
+        <li>Prioritize tasks with different levels of importance</li>
+        <li>Set deadlines and receive reminders</li>
+        <li>Organize tasks into categories</li>
+        <li>Search and filter tasks</li>
+        <li>User-friendly interface</li>
+    </ul>
+</section>
+
+<section>
+    <h2>How It Works</h2>
+    <p>Using our To-Do App is simple. Start by creating an account or logging in. Once you're in, you can add new tasks, set their priority, and assign them to different categories. You can also set deadlines and receive reminders to ensure you stay on top of your tasks. Use the search and filter options to quickly find specific tasks.</p>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feedback, or need support, feel free to reach out to us at support@todoapp.com. We're here to help you make the most of our app.</p>
+</section>
+{% endblock %}

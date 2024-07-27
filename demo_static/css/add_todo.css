@@ -1,0 +1,40 @@
+body{
+    font-family: cursive;
+    background-image: url('../img/wp9.webp');
+
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:rgba(217, 173, 217, 0.865);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.btn {
+    background-color:rgb(255, 215, 221);
+    color: mediumslateblue;
+    border-color: plum;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: rgb(178, 196, 252);
+    color: black;
+    border-color: white;
+
+}
+
+footer{
+    margin-top: 6.8%;
+}
+.footer-link {
+    text-decoration: none;
+    color:rebeccapurple; 
+}
+
+.footer-link:hover {
+    color: purple; 
+    box-shadow: silver;
+}

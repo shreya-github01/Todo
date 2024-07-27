@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+    <div class="jumbotron text-center" >
+        <h1 class="display-4">Welcome to My ToDo App</h1>
+        <p class="lead">Your simple and efficient task management tool.</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="{% url 'todo' %}" role="button">Get Started</a>
+    </div>
+</div>
+{% endblock %}

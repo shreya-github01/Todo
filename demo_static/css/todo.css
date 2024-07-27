@@ -1,0 +1,78 @@
+body {
+    font-family: cursive;
+    background-image: url('../img/wp7.webp');
+/* 7 g, 8ok 9 conser,12 thik */
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:rgba(217, 173, 217, 0.865);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+thead th {
+    padding: 12px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody td {
+    padding: 12px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+footer{
+    margin-top: 6.04%;
+}
+.btn {
+    background-color:rgb(255, 215, 221);
+    color: mediumslateblue;
+    border-color: plum;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: rgb(178, 196, 252);
+    color: black;
+    border-color: white;
+
+}
+.footer-link {
+    text-decoration: none;
+    color:rebeccapurple; 
+}
+
+.footer-link:hover {
+    color: purple; 
+    box-shadow: silver;
+}
