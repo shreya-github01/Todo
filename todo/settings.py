@@ -13,7 +13,8 @@ SECRET_KEY = 'django-insecure-2h8!g%s09+bttp+p_*foc^z9lnrkiv3-+95lc6sujwr%+brqt=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://todo-git-main-shreya-github01s-projects.vercel.app/']
+
 
 
 # Application definition
