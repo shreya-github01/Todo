@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "TODO/wsgi.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/my_django_project/wsgi.py" }
+    ],
+    "env": {
+      "DJANGO_SETTINGS_MODULE": "my_django_project.settings",
+      "DATABASE_URL": "@database-url",  
+      "SECRET_KEY": "@secret-key"  
+    }
+  }
+  
